@@ -5,62 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holberton School - Headphone Company</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <!-- HEADER -->
-        <!--  Content of the header -->
-        <header>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header" data-section-theme="dark">
             <div class="header-container">
                 <div class="logo">
-                    <!--  Logo image or text -->
+                    <a href="#hero">
+                        <img src="images/logo.png" alt="Holberton School - Headphone Company Logo">
+                    </a>
                 </div>
                 <nav class="nav">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#hero" class="nav-link">Home</a>
                         </li>
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#features" class="nav-link">Products</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="#about" class="nav-link">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="#testimonials" class="nav-link">Blog</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </nav>
                 <a href="#" class="button">Get Started</a>
+                <div class="hamburger closed">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             </div>
         </header>
-    <!-- HERO SECTION -->
-    <section class="section-hero" data-section-theme="dark">
-        <!-- Content of the hero section -->
-    </section>
 
-    <!-- FEATURES SECTION -->
-    <section class="section-features" data-section-theme="light">
-        <!-- Content of the features section -->
-    </section>
+        <!-- HERO SECTION -->
+        <section id="hero" class="section-hero" data-section-theme="dark">
+            <div class="section-inner">
+                <div class="hero-background"></div>
+                <div class="hero-content">
+                    <h1 class="section-title">Holberton School - Headphone Company</h1>
+                    <p>Our mission is to create the best headphones in the world for the best people.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
 
-    <!-- ABOUT SECTION -->
-    <section class="section-about-us" data-section-theme="light">
-        <!-- Content of the about section -->
-    </section>
+        <!-- FEATURES SECTION -->
+        <section id="features" class="section-features" data-section-theme="light">
+            <h2 class="section-title">Features</h2>
+            <div class="features-container">
+                <div class="card-work">
+                    <span class="card-icon">
+                        <i class="fas fa-headphones"></i> 
+                    </span>
+                    <h3 class="card-title">Superior Sound Quality</h3>
+                    <p class="card-text">Experience immersive audio with crystal-clear highs, rich mids, and deep, powerful bass.</p>
+                </div>
+                <div class="card-work">
+                    <span class="card-icon">
+                        <i class="fas fa-battery-full"></i> 
+                    </span>
+                    <h3 class="card-title">Long Battery Life</h3>
+                    <p class="card-text">Enjoy hours of uninterrupted listening on a single charge, keeping you connected all day long.</p>
+                </div>
+                <div class="card-work">
+                    <span class="card-icon">
+                        <i class="fas fa-microphone"></i> 
+                    </span>
+                    <h3 class="card-title">Crystal-Clear Calls</h3>
+                    <p class="card-text">Built-in microphones ensure clear and concise conversations, whether you're on a call or recording audio.</p>
+                </div>
+                <div class="card-work">
+                    <span class="card-icon">
+                        <i class="fas fa-cogs"></i> 
+                    </span>
+                    <h3 class="card-title">Comfortable Fit</h3>
+                    <p class="card-text">Designed for comfort, our headphones offer a secure and adjustable fit for all-day wear.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- TESTIMONIALS SECTION -->
-    <section class="section-testimonials" data-section-theme="dark">
-        <!-- Content of the testimonials section -->
-    </section>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section-about-us" data-section-theme="light">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="Holberton School - Headphone Company team"> 
+                </div>
+                <div class="about-text">
+                    <p>At Holberton School, we believe that great headphones are about more than just sound quality.  We create headphones that are designed with comfort, innovation, and style in mind.  Our team of passionate engineers and designers is committed to delivering the best possible listening experience.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <!-- Content of the footer -->
-    </footer>
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="section-testimonials" data-section-theme="dark">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="card-testimonial">
+                    <img src="images/testimonial-avatar.png" alt="Testimonial User" class="card-avatar">
+                    <blockquote class="card-quote">
+                        <p>I was blown away by the sound quality of these headphones. They're comfortable to wear, and the battery life is amazing! Highly recommend!</p>
+                        <cite>Mike Smith - Holberton Student</cite>
+                    </blockquote>
+                </div>
+                <div class="card-testimonial">
+                    <img src="images/testimonial-avatar.png" alt="Testimonial User" class="card-avatar">
+                    <blockquote class="card-quote">
+                        <p>These headphones are a game-changer. The noise cancellation is incredible, and the design is sleek and modern.</p>
+                        <cite>Sarah Johnson - Holberton Alumni</cite>
+                    </blockquote>
+                </div>
+                <div class="card-testimonial">
+                    <img src="images/testimonial-avatar.png" alt="Testimonial User" class="card-avatar">
+                    <blockquote class="card-quote">
+                        <p>As a music lover, I'm impressed with the clarity and depth of the audio. These headphones are perfect for listening to all my favorite tracks.</p>
+                        <cite>John Doe - Tech Enthusiast</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
 
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section-contact" data-section-theme="light">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="your-name">Your Name</label>
+                            <input type="text" id="your-name" name="your-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="your-email">Your Email</label>
+                            <input type="email" id="your-email" name="your-email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="your-message">Your Message</label>
+                            <textarea id="your-message" name="your-message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span> 
+                            <span class="contact-detail">+1 (555) 555-5555</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span class="contact-detail">info@holbertonschool.com</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span> 
+                            <span class="contact-detail">123 Main Street, Anytown, CA 12345</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer" data-section-theme="dark">
+            <div class="footer-container">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="images/logo.png" alt="Holberton School - Headphone Company Logo">
+                    </a>
+                </div>
+                <div class="socials">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="footer-copyright">© 2023 Holberton School - Headphone Company</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            nav.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
