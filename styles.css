@@ -722,5 +722,13 @@ a:active {
 }
 
 .card-work .card-icon {
-    display
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #D73953;
+    color: #fff;
+    margin-bottom: 2rem;
 }
