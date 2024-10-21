@@ -10,16 +10,16 @@
     <link rel="icon" href="images/Favicon.png" type="image/png">
     <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
     <div class="container">
-        <!-- HEADER -->
-        <header class="header" data-section-theme="dark">
-            <div class="header-container">
-                <div class="logo">
-                    <a href="#hero">
-                        <img src="images/logo_headphones.png" alt="Holberton School - Headphone Company Logo">
-                    </a>
+        <!-- HEADER -->  
+        <div class="header-container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="images/logo_headphones_small.png" 
+                         srcset="images/logo_headphones_medium.png 300w, images/logo_headphones_large.png 500w"
+                         sizes="(max-width: 300px) 150px, (max-width: 500px) 250px, 350px"
+                         alt="Holberton School - Headphone Company Logo">
+                </a>
                 </div>
                 <nav class="nav">
                     <ul>
@@ -107,6 +107,10 @@
             <div class="about-container">
                 <div class="about-image">
                     <img src="images/about-us.jpg" alt="Holberton School - Headphone Company team"> 
+                    srcset="images/about-us_medium.jpg 600w, images/about-us_large.jpg 900w"
+                         sizes="(max-width: 600px) 100%, (max-width: 900px) 50vw, 40vw"
+                         alt="Holberton School - Headphone Company team"> 
+                </div>
                 </div>
                 <div class="about-text">
                     <p>At Holberton School, we believe that great headphones are about more than just sound quality.  We create headphones that are designed with comfort, innovation, and style in mind.  Our team of passionate engineers and designers is committed to delivering the best possible listening experience.</p>

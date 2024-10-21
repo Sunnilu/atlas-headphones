@@ -2,6 +2,37 @@
 
 /*  GLOBAL STYLES  */
 
+/* Default styles (for mobile) */
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Tablet styles */
+@media (min-width: 480px) and (max-width: 767px) {
+    container {
+        max-width: 90%;
+    }
+    /* Other tablet-specific styles...*/
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+
+    /* Other desktop- specific styles... */
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
