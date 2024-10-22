@@ -214,6 +214,26 @@ body {
     color: #353535;
 }
 
+.slide {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+    
 /* ABOUT SECTION STYLES  */
 
 .section-about-us {
