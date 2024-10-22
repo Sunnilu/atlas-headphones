@@ -220,12 +220,6 @@ body {
     height: auto;
 }
 
-.background-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 .overlay-image {
     position: absolute;
     top: 50%;
